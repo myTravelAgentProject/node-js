@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" />
+    
+        <title>hello</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="./Scripts/UpdateUser.js"></script>
+        <link href="Style/Login.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="col-md-6 login-form-2">
+        <div class="login-logo">
+            <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+        </div>
+        <h3>עדכון פרטים</h3>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="שם *" value="" id="inp_name_new"/>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="עיר *" value="" id="inp_city_new"/>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="רחוב *" value="" id="inp_street_new"/>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="מס' בית *" value="" id="inp_houseNumber_new"/>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="כתובת מייל *" value="" id="inp_email_new" type="email"/>
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" placeholder="סיסמה *" value="" id="inp_password_new" minlength="5"/>
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btnSubmit" value="עדכון" onclick="updateUser()"/>
+        </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>

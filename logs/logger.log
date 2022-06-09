@@ -1,0 +1,43 @@
+{"level":"error","message":"new error"}
+{"level":"info","message":"Server is up"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T12:55:41.011Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T12:57:08.384Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T12:57:41.144Z"}
+{"level":"error","message":"error happend?!","timestamp":"2022-05-12T13:05:54.981Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T13:07:30.352Z"}
+{"level":"error","message":"error happend?!","timestamp":"2022-05-12T13:12:45.198Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T13:13:41.792Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T13:14:23.757Z"}
+{"level":"error","message":"error happend?!","timestamp":"2022-05-12T13:21:59.341Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T13:24:13.234Z"}
+{"level":"error","message":"error happend?! ValidationError: email: Please fill a valid email address","timestamp":"2022-05-12T13:24:42.377Z"}
+{"level":"error","message":"error happend?! ValidationError: email: Please fill a valid email address","timestamp":"2022-05-12T13:31:48.961Z"}
+{"level":"error","message":"error happend?! ValidationError: email: Please fill a valid email address","timestamp":"2022-05-12T13:32:45.984Z"}
+{"level":"error","message":"error happend?! ValidationError: email: Please fill a valid email address","timestamp":"2022-05-12T13:33:00.000Z"}
+{"level":"error","message":"error happend?! ValidationError: email: Please fill a valid email address","timestamp":"2022-05-12T13:33:11.816Z"}
+{"level":"error","message":"error happend?! ValidationError: email: Please fill a valid email address","timestamp":"2022-05-12T13:33:27.472Z"}
+{"level":"error","message":"error happend?! ValidationError: email: Please fill a valid email address","timestamp":"2022-05-12T13:33:36.128Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T13:34:33.759Z"}
+{"level":"error","message":"error happend?! ValidationError: email: Please fill a valid email address","timestamp":"2022-05-12T13:35:56.972Z"}
+{"level":"error","message":"error happend?! ValidationError: email: Please fill a valid email address","timestamp":"2022-05-12T13:36:22.533Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T13:37:42.466Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T13:38:59.170Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T13:57:00.215Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T14:18:04.479Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T14:27:42.518Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T14:29:36.761Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T14:32:45.937Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T14:46:29.146Z"}
+{"level":"error","message":"error happend?! CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"User\"","timestamp":"2022-05-12T14:48:10.456Z"}
+{"level":"error","message":"error happend?! CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"User\"","timestamp":"2022-05-12T14:49:06.037Z"}
+{"level":"error","message":"error happend?! CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"User\"","timestamp":"2022-05-12T14:54:30.891Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T14:57:15.536Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T14:58:31.987Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T15:05:25.022Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T15:08:08.565Z"}
+{"level":"error","message":"An error occurred CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"User\"","timestamp":"2022-05-12T15:14:08.867Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T15:24:53.225Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T15:28:08.530Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-05-12T15:30:06.251Z"}
+{"level":"info","message":"Server is up","timestamp":"2022-06-09T12:17:50.691Z"}
+{"level":"error","message":"An error occurred ValidationError: address.0.houseNumber: Cast to Number failed for value \"שש\" (type string) at path \"houseNumber\"","timestamp":"2022-06-09T12:21:59.637Z"}

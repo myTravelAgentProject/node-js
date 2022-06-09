@@ -1,0 +1,46 @@
+﻿html, body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+.QuickLinks ul li a::after {
+    content: '|';
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+ul {
+    margin: 0;
+}
+
+
+.bar {
+    background-color: black;
+    height: 35px;
+}
+
+    .bar::before {
+        content: 'חנות הנעליים שלי';
+        color: white;
+        /* display: inline-block; */
+        position: absolute;
+        /* margin: 0 auto; */
+        /* display: block; */
+        top: 8px;
+        left: 51%;
+        font-family: Helvetica;
+    }
+
+
+.QuickLinks ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-family: Helvetica;
+}
+
+.QuickLinks ul li {
+    float: left;
+}

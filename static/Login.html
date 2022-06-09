@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <title>hello</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./Scripts/LogIn.js"></script>
+    <link href="Style/Login.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div class="container login-container">
+                <div class="row">
+                    <div class="col-md-6 login-form-1">
+                        <h3>משתמש קיים</h3>
+                        
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="כתובת מייל *" value="" id="inp_name" type="email"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="סיסמה *" value="" id="inp_password" minlength="5"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btnSubmit" value="כניסה" onclick="login()"/>
+                            </div>
+                        
+                    </div>
+                    <div class="col-md-6 login-form-2">
+                        <div class="login-logo">
+                            <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                        </div>
+                        <h3>משתמש חדש</h3>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="שם *" value="" id="inp_name_new"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="עיר *" value="" id="inp_city_new"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="רחוב *" value="" id="inp_street_new"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="מס' בית *" value="" id="inp_houseNumber_new"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="כתובת מייל *" value="" id="inp_email_new" type="email"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="סיסמה *" value="" id="inp_password_new" minlength="5"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="הרשמה" onclick="addNewUser()"/>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    
+    </div>
+</body>
+</html>
